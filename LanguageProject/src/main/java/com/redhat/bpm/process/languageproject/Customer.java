@@ -59,4 +59,10 @@ public class Customer implements java.io.Serializable
       this.address = address;
    }
 
+@Override
+public String toString() {
+	return "Customer [firstName=" + firstName + ", lastName=" + lastName
+			+ ", address=" + address + "]";
+}
+
 }
