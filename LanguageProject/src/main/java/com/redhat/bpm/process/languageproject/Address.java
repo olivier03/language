@@ -86,4 +86,11 @@ public class Address implements java.io.Serializable
       this.country = country;
    }
 
+@Override
+public String toString() {
+	return "Address [number=" + number + ", streetName=" + streetName
+			+ ", city=" + city + ", zip=" + zip + ", country=" + country + "]";
+}
+   
+
 }
